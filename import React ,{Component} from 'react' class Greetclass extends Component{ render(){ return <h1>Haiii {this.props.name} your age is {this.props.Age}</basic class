@@ -1,6 +1,0 @@
-import React ,{Component} from 'react'
-class Greetclass extends Component{
-render(){
-return <h1>Haiii {this.props.name} your age is {this.props.Age}</h1>}
-}
-export default Greetclass
