@@ -1,0 +1,29 @@
+import React from 'react'
+import Bind from './bind'
+
+// function Greet1(){
+// return <h1>Hai Prakash</h1>
+// }
+
+const Greet =(props)=> {
+
+
+    function name1() {
+
+        console.log(`Hi`)
+    }
+
+    bind(){
+return
+<Bind></Bind>
+    };
+    
+return (
+<div> 
+<h1>hi {name1()}{props.name} this is parent</h1>
+ <button onClick={bind}>click</button> 
+   
+</div>
+)
+}
+export default Greet
